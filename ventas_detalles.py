@@ -1,7 +1,9 @@
 import pandas as pd
 
 # leemos el archivo csv del cliente
-df = pd.read_csv('./data/ventas.csv')
+chunk_df = pd.read_csv('./data/ventas.csv', chunksize=1000)
 
 # mostramos informaciion de las pruiemras filas del DataFrame
-print(df.head())
+for chunk in chunk_df:
+    print(chunk.head())
+    break
