@@ -1,0 +1,5 @@
+# ignorar todos los archivos de la carpeta data/informes_libreria
+/data/informes_libreria
+
+# no ignoramos los archivos en data
+!data/*
