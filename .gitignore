@@ -1,7 +1,0 @@
-.gitignore
-
-# Ignorar todo el contenido de data
-/data/*
-
-# Pero no ignorar los archivos directamente en data
-# !data/*
