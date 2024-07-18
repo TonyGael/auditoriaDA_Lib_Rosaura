@@ -4,4 +4,4 @@
 /data/*
 
 # Pero no ignorar los archivos directamente en data
-!data/*
+# !data/*
