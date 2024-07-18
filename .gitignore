@@ -1,5 +1,7 @@
-# ignorar todos los archivos de la carpeta data/informes_libreria
-/data/informes_libreria
+.gitignore
 
-# no ignoramos los archivos en data
+# Ignorar todo el contenido de data
+/data/*
+
+# Pero no ignorar los archivos directamente en data
 !data/*
